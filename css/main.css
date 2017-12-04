@@ -18,10 +18,10 @@ html {
 
 img {
   width: 100%;
-  display: block;
+  display: inline-block;
 }
 
-img:nth-child(3) {
+img:nth-child(2) {
   display: none;
 }
 
@@ -81,4 +81,4 @@ img:last-child {
     display: inline-block;
   }
 
-  }
+}
