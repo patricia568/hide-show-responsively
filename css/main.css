@@ -36,6 +36,11 @@ img:last-child {
     display: inline-block;
   }
 
+  img:nth-child(2) {
+    width: 49%;
+    display: inline-block;
+  }
+
   img:nth-child(3) {
     width: 49%;
     display: inline-block;
