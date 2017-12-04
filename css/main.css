@@ -25,7 +25,7 @@ img:nth-child(2) {
   display: none;
 }
 
-img:last-child {
+img:nth-child(4) {
   display: none;
 }
 
@@ -39,7 +39,7 @@ img:last-child {
     display: inline-block;
   }
 
-  img:last-child {
+  img:nth-child(4) {
     display: inline-block;
   }
 
@@ -48,7 +48,7 @@ img:last-child {
 @media only screen and (min-width: 38em) {
 
   img {
-  width: 32%;
+    width: 32%;
   }
 
   img:first-child {
@@ -66,6 +66,5 @@ img:last-child {
   img:first-child {
     display: inline-block;
   }
-
 
 }
